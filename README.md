@@ -29,6 +29,7 @@ enum Screen: Navegatable {
         }
     }
 }
+```
 
 ### 2. Extend Screen for each SwiftUI View
 
@@ -59,6 +60,7 @@ navigator.present(modal: .login(params: LoginParams()))
 ### Swift Package Manager
 
 Add Sailor as a dependency to your Package.swift file:
+
 ```swift
 dependencies: [
     .package(url: "https://github.com/JuanColilla/Sailor.git", from: "1.0.0")
