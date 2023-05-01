@@ -61,7 +61,7 @@ navigator.present(modal: .login(params: LoginParams()))
 Add Sailor as a dependency to your Package.swift file:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/juancolilla/Sailor.git", from: "1.0.0")
+    .package(url: "https://github.com/JuanColilla/Sailor.git", from: "1.0.0")
 ]
 ```
 
